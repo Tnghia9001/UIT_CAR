@@ -100,7 +100,7 @@ if __name__ == '__main__':
     from model.LR_ASPP import LiteRASSP
     # Xây dựng model
     model = LiteRASSP((66, 200, 3)).build()
-    model.load_weights('models_mobilenetv3/model-038.h5')
+    model.load_weights('models_mobilenetv3/model-016.h5')
     # model = load_model('model-037.h5')
     # --------------------------------------------------------------------------------------#
     # wrap Flask application with engineio's middleware
