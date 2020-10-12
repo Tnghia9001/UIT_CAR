@@ -67,7 +67,7 @@ def telemetry(sid, data):
             else:
                 speed_limit = MAX_SPEED
 
-            sendBack_Speed = ((40 - (steering_angle/12)**2 - (speed/speed_limit)**2) - speed) * 60
+            sendBack_Speed = ((40 - (steering_angle/6)**2 - (speed/speed_limit)**2) - speed) * 70
 
             # print(speed, steering_angle)
             # ------------------------------------------------------------------------------------------------------#
